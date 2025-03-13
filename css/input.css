@@ -1,2 +1,8 @@
 @import "tailwindcss";
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}

@@ -6,9 +6,14 @@
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="h-dvh w-dvw m-0 p-0 flex flex-col font-primary">
+<body class="h-dvh w-dvw m-0 p-0 flex flex-col font-primary text-white">
+    <!-- Video Background -->
+    <video autoplay muted loop id="backgroundVideo" class="fixed right-0 left-0 top-0 object-cover bottom-0 min-w-[100dvw] min-h-[100dvh] -z-10 blur brightness-25 scale-105">
+        <source src="assets/video/video-background.mp4" type="video/mp4">
+    </video>
+
     <!-- Color Palette https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd --> 
-    <div id="navigation" class="grow-0 flex flex-row items-center justify-between p-2 shadow">
+    <div id="navigation" class="grow-0 flex flex-row items-center justify-between p-2 bg-black/45 z-10">
         <!-- Branding -->
         <a href="#" class="flex flex-row items-center h-max w-max gap-2">
             <img src="assets/images/logo.png" width="35.7px" alt="swave_logo">
@@ -16,6 +21,7 @@
         </a>
         <!-- Navigation Links -->
         <div class="flex flex-row gap-10">
+            <!-- TODO: Fix Navigation Links -->
             <a href="#" class="grow">Home</a>
             <a href="#" class="grow">About Us</a>
             <a href="#" class="grow">Pricing</a>
@@ -23,10 +29,10 @@
         </div>
         <!-- Text -->
          <div class="">
-            
+            <!-- TODO: Dark Mode and White Mode -->
          </div>
     </div>
-    <div id="app" class="grow">
+    <div id="app" class="grow p-2 flex flex-col items-center justify-center">
     <script src="js/index.js"></script>
 </body>
 </html>np
