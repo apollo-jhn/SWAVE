@@ -1,3 +1,11 @@
+# Compiled Stylesheets
+assets/css/*
+
+# Compiled JavaScript
+assets/js/*
+main.js
+preload.js
+
 # Logs
 logs
 *.log
