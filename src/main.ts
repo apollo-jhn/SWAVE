@@ -6,11 +6,13 @@ function createWindow(): void {
     width: 800,
     height: 480,
     useContentSize: true,
+    resizable: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   });
 
+  win.menuBarVisible = false;
   win.loadFile('index.html');
 }
 

@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main-compiled.css">
+<html lang="en-PH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main-compiled.css" />
     <title>SWAVE</title>
-</head>
+  </head>
 
-<body>
+  <body class="flex flex-col">
+    <nav class="z-10 shadow-sm grow-0 flex flex-row justify-between p-2">
+      <!-- Branding -->
+        <div class="flex flex-row justify-between h-full">
+        <img src="assets/images/swave-logo-100px.png" alt="logo" />
+      </div>
+      <!-- Back/Home Button -->
+      <div class="self-end flex flex-row h-full gap-3">
+        <button type="button" onclick="">
+          <img class="invert" src="assets/images/svg/home.svg" alt="" />
+        </button>
+        <button type="button">
+          <img class="invert" src="assets/images/svg/arrow-left.svg" alt="" />
+        </button>
+      </div>
+    </nav>
 
-</body>
+    
+    <main id="app" class="grow"></main>
 
-</html> 
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
